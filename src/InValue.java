@@ -1,5 +1,10 @@
 public class InValue {
-    String fileAddressIn;
-    String fileAddressOf;
+    @Override
+    public String toString() {
+        return "InValue{" +
+                "key=" + key +
+                '}';
+    }
+
     int key;
 }
